@@ -1,0 +1,131 @@
+.dashboardContainer{
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.post-container{
+  display: flex;
+}
+.loading-banana{
+  object-fit: contain;
+  width: 100%;
+  height: 90vh;
+}
+
+.post-container:hover{
+  background-color: #3d3d3d;
+}
+.post:hover{
+  background-color: #444444;
+
+}
+
+.informationContainer{
+    display: flex;
+    width: 100%;
+}
+
+.imgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    min-width: 650px;
+    height: 450px;
+    right: 250px;
+    margin-top: 25px;
+    margin: auto;
+    
+}
+
+.img {
+    object-fit: contain;
+    width:312px;
+    height:312px;
+    min-width:312px;
+    min-height:312px;
+}
+
+.profileContainer{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-posts{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1px;
+}
+.user-info{
+  display: flex;
+  margin: 5px;
+  align-items: center;
+}
+.profile-picture{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.username{
+
+}
+
+.interaction-buttons-container{
+}
+.like-button{
+  background-image: url('http://cdn.onlinewebfonts.com/svg/img_56552.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+.comment-button{
+  background-image: url('https://cdn-icons-png.flaticon.com/512/25/25663.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+h3 { /* username of poster */
+  margin-left: 10px;
+  color: white;
+}
+
+.profilePicture{
+    margin: 5px;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ffe600;
+}
+a{
+  text-decoration: none;
+}
+
+
+.descriptionContainer{
+  margin: 10px;
+}
+
+.description{
+  color: white;
+  margin: auto;
+  font-size: 16px;
+}
+
+
+
+

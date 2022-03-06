@@ -1,0 +1,8 @@
+.App {
+
+  background-color: #1E1E1E;
+  background-image: url('./pattern_hexagon-5_0.5_3_0-0_0_1__1f1f1f_ffe600.png');
+  min-height: 100vh;
+  min-width: 375px;
+}
+
