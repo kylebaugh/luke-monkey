@@ -8,7 +8,7 @@ const path = require('path')
 const cors = require('cors')
 
 
-const {SESSION_SECRET, SERVER_PORT, CONNECTION_STRING, S3_BUCKET, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY} = process.env;
+const {SESSION_SECRET, SERVER_PORT, DATABASE_URL, CONNECTION_STRING, S3_BUCKET, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY} = process.env;
 
 const app = express()
 
@@ -27,7 +27,7 @@ app.use(session({
 }))
 
 massive({
-    connectionString: process.env.DATABASE_URL,
+    connectionString: DATABASE_URL,
     ssl:{
         rejectUnauthorized: false
     }
